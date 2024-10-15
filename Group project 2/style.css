@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+}
+
+header {
+    padding: 10px;
+
+    nav {
+        justify-content: space-around;
+        align-items: center;
+    
+        .logo{
+            img {
+                height: 10%;
+                width: 100px;
+            }
+        }
+    
+        .menu {
+            list-style: none;
+            gap: 20px;
+        
+            li a{
+                color: rgb(112, 109, 109);
+                cursor: pointer;
+            }
+        }
+    
+        .username {
+            button {
+                background-color: rgb(192, 231, 204);
+                border: none;
+                border-radius: 20px;
+                color: #fff;
+                border-radius: 50px;
+                width: 100px;
+                height: 40px;
+                cursor: pointer;
+                text-align: center;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+.material-symbols-outlined{
+    font-size: 16px;
+}
+
+.hero {
+  height: 74vh;
+  max-width: 1200px;
+  box-sizing: border-box;
+  left: 10vw;
+  position: relative;
+  gap: 80px;
+
+    .hero-left {
+        flex-direction: column;
+        width: 50%;
+        height:100%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        .para{
+            width: 70%;
+            color: rgb(112, 109, 109);
+        }
+        .heading{
+            width: 70%;
+            font-size:40px;
+            font-weight: bolder;
+            span {
+                color: aqua;
+            }
+        }
+
+        .btn {
+            background-color: aqua;
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            width: 50%;
+            height: 10%;
+            cursor: pointer;
+            text-align: center;
+        }
+    }
+
+    .hero-right{
+
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    
+        .hero-right img {
+            max-width: 100%;
+            height:80%;
+        }
+    }
+}
+
+.service-overview {
+    background-color:darkorange;
+    padding: 15px;
+    justify-content:space-around;
+    color: white;
+    box-sizing: border-box;
+    height: 80px;
+
+    .Review{
+        font-size: 25px;
+    }
+}
+
+.flex span.material-symbols-outlined{
+    font-size: 46px;
+    padding: 0 10px;
+}
