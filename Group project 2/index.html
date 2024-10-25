@@ -21,7 +21,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>                
+                <li><a href="#">Contact Us</a></li>
             </ul>
             <div class="username">
                 <button>Username</button>
@@ -42,7 +42,7 @@
 
     <div class="service-overview flex">
 
-        <div class="flex"> 
+        <div class="flex">
             <h2>Our Achievements</h2>
         </div>
 
@@ -63,6 +63,74 @@
             <div><span class="Review">4.5/5</span> <br> Rating</div>
         </div>
     </div>
+
+
+    <section class="servicesSection">
+
+        <div class="left">
+            <div class="start">
+                <h1>Our Services</h1>
+                <p>Click On The Add to Cart Button to Add The Services To Your Cart</p>
+            </div>
+            <div class="services"></div>
+            <div class="end">
+                <p> <i class="fa-solid fa-circle-exclamation"></i> &nbsp; Add the items to the cart and book now</p>
+            </div>
+        </div>
+
+        <div class="right">
+
+            <div class="addItemsDiv">
+                <h1>Added Items</h1>
+                <div class="items">
+                    <div class="headRow">
+                        <p class="sno">S.No</p>
+                        <p class="service">Service Name</p>
+                        <p class="price">Price</p>
+                    </div>
+                    <div class="bodyRows">
+
+                        <div class="noItems">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                            <h3>No Items Added</h3>
+                            <p>Add items to the cart from the services bar</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="totalDiv">
+                    <h3>Total Amount</h3>
+                    <h3 id="totalPrice">₹0.00</h3>
+                </div>
+            </div>
+
+            <div class="bookNowDiv">
+                <h1>Book Now</h1>
+                <div class="nameDiv">
+                    <p>Full Name</p>
+                    <input type="text" placeholder="John Doe" id="formName">
+                </div>
+                <div class="contactDiv">
+                    <div class="emailDiv">
+                        <p>Email ID</p>
+                        <input type="text" placeholder="mailid@gmail.com" id="formEmail">
+                    </div>
+                    <div class="phoneDiv">
+                        <p>Phone Number</p>
+                        <input type="tel" placeholder="0000000000" id="formPhone">
+                    </div>
+                </div>
+                <button id="bookNow">Book Now</button>
+                <p class="warn"> <i class="fa-solid fa-circle-exclamation"></i> &nbsp; Add the items to the cart to book</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
